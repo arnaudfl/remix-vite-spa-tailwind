@@ -1,0 +1,53 @@
+{
+    "editor.formatOnSave": true,
+    "eslint.validate": ["javascript", "typescript"],
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "[javascript]": {
+      "language": "javascript",
+      "autoFix": true,
+      "preferences": {
+        "quoteStyle": "single"
+      },
+      "editor.formatOnSave": false
+    },
+    "[typescript]": {
+      "language": "typescript",
+      "autoFix": true,
+      "preferences": {
+        "quoteStyle": "single"
+      },
+      "editor.formatOnSave": false
+    },
+    "[markdown]": {
+      "editor.unicodeHighlight.ambiguousCharacters": false,
+      "editor.unicodeHighlight.invisibleCharacters": false,
+      "diffEditor.ignoreTrimWhitespace": false,
+      "editor.wordWrap": "on",
+      "editor.quickSuggestions": {
+        "comments": "off",
+        "strings": "off",
+        "other": "off"
+      },
+      "editor.formatOnSave": false
+    },
+    "css.customData": [".vscode/css_custom_data.json"],
+    "files.associations": {
+      "*.css": "tailwindcss",
+      "*.sass": "tailwindcss",
+      "*.scss": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "tailwindCSS.includeLanguages": {
+      "plaintext": "html"
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/bower_components": true,
+      "**/dist": true,
+      "**/coverage": true
+    }
+  }
